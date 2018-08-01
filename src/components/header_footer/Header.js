@@ -5,7 +5,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton';
 
-import Drawer from './SideDrawer';
 import SideDrawer from './SideDrawer';
 
 class Header extends Component {
@@ -29,7 +28,6 @@ class Header extends Component {
                 headerShow: false
             })
         }
-        console.log('user scrolling');
     }
 
     toggleDrawer = (value) => {
