@@ -41,7 +41,6 @@ class Pricing extends Component {
                     </div>
                 </div>
             </Zoom>
-            
         ))
     )
 
